@@ -1,0 +1,17 @@
+
+
+
+.users {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.card--user {
+    display: grid;
+    grid-template-columns: 40%, auto;
+    gap: 1rem;
+}
+.card--user img {
+    grid-row: span 2;
+}
